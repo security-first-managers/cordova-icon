@@ -54,15 +54,14 @@ var getPlatforms = function (projectName) {
       { name: 'icon.png',                size : 57   },
       { name: 'icon@2x.png',             size : 114  },
       { name: 'icon-24@2x.png',          size : 48   },
-      { name: 'icon-27.5.png',           size : 27.5 },
       { name: 'icon-27.5@2x.png',        size : 55   },
       { name: 'icon-29.png',             size : 29   },
       { name: 'icon-29@2x.png',          size : 58   },
       { name: 'icon-29@3x.png',          size : 87   },
       { name: 'icon-44@2x.png',          size : 88   },
-      { name: 'icon-54@2x.png',          size : 108  },
       { name: 'icon-86@2x.png',          size : 172  },
-      { name: 'icon-98@2x.png',          size : 196  }
+      { name: 'icon-98@2x.png',          size : 196  },
+      { name: 'icon-108@2x.png',          size : 216  }
     ]
   });
   platforms.push({
