@@ -240,7 +240,7 @@ var generateIcon = function (platform, icon) {
       format: 'png',
       width: icon.size * 1.5,
       height: icon.size * 1.5,
-      customArgs: ['-background', 'none', '-gravity', 'Center', '-extent', icon.size * 2.25 + 'x' + icon.size * 2.25]
+      customArgs: ['-gravity', 'Center', '-extent', icon.size * 2.25 + 'x' + icon.size * 2.25]
     } , function(err, stdout, stderr){
       if (err) {
         deferred.reject(err);
